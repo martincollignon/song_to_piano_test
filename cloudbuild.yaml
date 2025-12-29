@@ -54,7 +54,7 @@ steps:
       - '--concurrency'
       - '3'
       - '--max-instances'
-      - '10'
+      - '3'
       - '--no-cpu-throttling'
       - '--no-gpu-zonal-redundancy'
       - '--set-env-vars'
