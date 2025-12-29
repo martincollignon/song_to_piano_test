@@ -56,7 +56,7 @@ steps:
       - '--max-instances'
       - '10'
       - '--no-cpu-throttling'
-      - '--no-zonal-redundancy'
+      - '--no-gpu-zonal-redundancy'
       - '--set-env-vars'
       - 'GCS_BUCKET=landbrugsdata-1-sheet-music,PROJECT_ID=$PROJECT_ID,REGION=europe-west4,OWNER_EMAIL=danskcollignon@gmail.com,ENVIRONMENT=production'
       - '--service-account'
